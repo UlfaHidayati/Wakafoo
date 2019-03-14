@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Wakafoo</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="email">EMAIL</string>
+    <string name="name">NAME</string>
+    <string name="sign_up_for_your_account">Sign Up For Your Account</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="password">PASSWORD</string>
+    <string name="egreement">I have read and agreed with the terms and condition</string>
+    <string name="form_pengajuan_wakaf">Form Pengajuan Wakaf</string>
+    <string name="batas_waktu_donasi">Batas Waktu Donasi</string>
+    <string name="target_donasi">Target Donasi</string>
+    <string name="judul_penggalangan">Judul penggalangan</string>
+    <string name="kategori_untuk_wakaf">Kategori untuk wakaf</string>
+    <string name="form_pengajuan_wakaf">Form Pengajuan Wakaf</string>
+    <string name="tulis_ajakan_singkat">Tulis Ajakan Singkat</string>
+    <string name="upload_foto">Upload Foto</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="tulis_ajakan_singkat">Tulis Ajakan Singkat</string>
+    <string name="contohajakan">Contoh : Mohon donasi untuk modal usaha</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="lanjutkan">LANJUTKAN</string>
+    <string name="persentase_akad">Persentase Akad</string>
+    <string-array name="array_kategori">
+        <item>Pilih Kategori</item>
+        <item>Produktif</item>
+        <item>Non-Produktif</item>
+    </string-array>
+    <string-array name="array_waktu">
+        <item>Pilih atas Waktu</item>
+        <item>10 Hari</item>
+        <item>20 Hari</item>
+    </string-array>
+    <string-array name="array_persentase">
+        <item>Pilih Persentase</item>
+        <item>10 %</item>
+        <item>20 %</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:accessibilityHeading="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#c0dbec"
+        tools:context=".FormFundraisingActivity">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+            <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/file_icon" />
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:text="@string/form_pengajuan_wakaf"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="12sp"
+                android:text="@string/kategori_untuk_wakaf" />
+        <Spinner
+                android:id="@+id/sp_kategori"
+                android:layout_width="match_parent"
+                android:layout_height="15pt"
+                android:entries="@array/array_kategori"
+                android:background="#ffffff" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                android:text="@string/judul_penggalangan"
+        />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="15pt"
+                android:background="#ffffff"
+                android:id="@+id/et_titlefundraising" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                android:text="@string/target_donasi" />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="15pt"
+                android:background="#ffffff"
+                android:id="@+id/et_targetdonasi"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                android:text="@string/batas_waktu_donasi" />
+        <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="15pt"
+                android:id="@+id/sp_bataswaktu"
+                android:entries="@array/array_waktu"
+                android:background="#ffffff"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                android:text="@string/persentase_akad" />
+        <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="15pt"
+                android:id="@+id/sp_persentaseakad"
+                android:entries="@array/array_persentase"
+                android:background="#ffffff"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="#67a6ed"
+                android:text="@string/lanjutkan"
+                android:id="@+id/btn_lanjutfundraising2"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

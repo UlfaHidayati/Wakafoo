@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context=".beranda">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <Button
+                android:id="@+id/btn_fundraising"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/et_padding"
+                android:text="Pengajuan Wakaf"
+        />
+        <Button
+                android:id="@+id/btn_ayowakaf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/et_padding"
+                android:text="Ayo Wakaf"
+        />
+        <Button
+                android:id="@+id/btn_informasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/et_padding"
+                android:text="Informasi Wakaf"
+        />
+        <Button
+                android:id="@+id/btn_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/et_padding"
+                android:text="About"
+        />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
