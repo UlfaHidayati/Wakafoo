@@ -9,6 +9,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                />
         <Button
                 android:id="@+id/btn_fundraising"
                 android:layout_width="match_parent"

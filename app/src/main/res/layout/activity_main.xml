@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
 
-            android:background="#ffffff"
+            android:background="#000000"
             app:itemIconTint="@drawable/state"
             app:itemTextColor="@drawable/state"
             app:menu="@menu/bottomnavigation_menu"
